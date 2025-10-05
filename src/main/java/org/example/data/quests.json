@@ -1,0 +1,50 @@
+[
+  {
+    "type": "collectItems",
+    "id": 1,
+    "status": "NEW",
+    "questName": "Collect 5 diamonds",
+    "collectedItems": 0,
+    "numberOfItemsToCollect": 5
+  },
+  {
+    "type": "killMobs",
+    "id": 2,
+    "status": "NEW",
+    "questName": "Kill 5 zombies",
+    "killedMobs": 0,
+    "numberOfMobsToKill": 5
+  },
+  {
+    "type": "collectItems",
+    "id": 3,
+    "status": "NEW",
+    "questName": "Collect 7 flowers",
+    "collectedItems": 0,
+    "numberOfItemsToCollect": 7
+  },
+  {
+    "type": "killMobs",
+    "id": 4,
+    "status": "NEW",
+    "questName": "Kill 3 zombies",
+    "killedMobs": 0,
+    "numberOfMobsToKill": 3
+  },
+  {
+    "type": "killMobs",
+    "id": 5,
+    "status": "NEW",
+    "questName": "Kill 8 mobs",
+    "killedMobs": 0,
+    "numberOfMobsToKill": 8
+  },
+  {
+    "type": "collectItems",
+    "id": 6,
+    "status": "NEW",
+    "questName": "Collect 4 stones",
+    "collectedItems": 0,
+    "numberOfItemsToCollect": 5
+  }
+]
