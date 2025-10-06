@@ -41,7 +41,7 @@ public class UserServiceImpl implements UserService{
         );
 
         if (user.getQuest() != null) {
-            throw new IllegalStateException("The user with id: " + id + " has already assigned a quest. Assigned quest id: " + user.getQuest().getId());
+            throw new RuntimeException("The user with id: " + id + " has already assigned a quest. Assigned quest id: " + user.getQuest().getId());
         }
         return user;
     }

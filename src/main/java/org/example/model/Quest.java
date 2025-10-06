@@ -25,16 +25,12 @@ public abstract class Quest {
         this.questName = questName;
     }
 
-    public abstract boolean upgradeProgress(int value) throws RuntimeException;
+    public abstract boolean upgradeProgress(int value);
 
     public abstract String getResultsDetails();
 
     public long getId() {
         return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public QuestStatus getStatus() {
@@ -48,10 +44,4 @@ public abstract class Quest {
     public String getQuestName() {
         return questName;
     }
-
-    public void setQuestName(String questName) {
-        this.questName = questName;
-    }
-
-
 }
